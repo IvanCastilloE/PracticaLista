@@ -18,6 +18,12 @@
         <TextBlock x:Name="lblMatricula" HorizontalAlignment="Left" Margin="218,103,0,0" TextWrapping="Wrap" Text="000000" VerticalAlignment="Top"/>
         <TextBlock HorizontalAlignment="Left" Margin="218,151,0,0" TextWrapping="Wrap" Text="Carrera:" VerticalAlignment="Top"/>
         <TextBlock x:Name="lblCarrera" HorizontalAlignment="Left" Margin="218,172,0,0" TextWrapping="Wrap" Text="Nombre de la carrera" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="618,61,0,0" TextWrapping="Wrap" Text="Clave:" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="435,40,0,0" TextWrapping="Wrap" Text="Materias:" VerticalAlignment="Top"/>
+        <TextBlock x:Name="lblClaveMateria" HorizontalAlignment="Left" Margin="618,85,0,0" TextWrapping="Wrap" Text="000000" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="618,138,0,0" TextWrapping="Wrap" Text="Nombre:" VerticalAlignment="Top"/>
+        <TextBlock x:Name="lblNombreMateria" HorizontalAlignment="Left" Margin="618,159,0,0" TextWrapping="Wrap" Text="Materia" VerticalAlignment="Top"/>
+        <ListBox x:Name="lstMaterias" HorizontalAlignment="Left" Height="338" Margin="435,61,0,0" VerticalAlignment="Top" Width="139" SelectionChanged="lstMaterias_SelectionChanged"/>
 
     </Grid>
 </Window>
